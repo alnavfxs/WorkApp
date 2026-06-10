@@ -1,0 +1,12 @@
+:root {
+  /* COLORS */
+  --white-color: #ffffff;
+  --white-opacity-color: #ffffffa6;
+
+  /* FONTS */
+  --font-roboto: "Roboto", sans-serif;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+}

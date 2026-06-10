@@ -1,0 +1,48 @@
+@import url(../global/global.css);
+
+.header {
+    height: 1000px;
+}
+
+.footer {
+    background-color: #161C2D;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    padding: 122px 245px;
+}
+
+.footer-brand {
+    width: 274px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer-logo-img {
+    width: 178px;
+}
+
+.footer-name {
+    padding-bottom: 20px;
+}
+
+.footer-desc {
+    font-weight: var(--font-normal);
+    font-size: 15px;
+    line-height: 26px;
+    color: var(--white-opacity-color);
+}
+
+.footer-social-icons {
+    width: 142px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    font-weight: var(--font-normal);
+    font-size: 17px;
+    line-height: 40px;
+    color: var(--white-color);
+}

@@ -1,48 +1,106 @@
 @import url(../global/global.css);
 
+.body {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header {
-    height: 1000px;
+  height: 1000px;
+  background-color: #f0fbf3;
+}
+
+.header-section {
+  height: 33px;
+  /* background-color: aqua; */
+  margin-left: 48px;
+  /* margin-top: 21px; */
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list {
+  margin-top: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-list :hover {
+  color: #fb6d45;
+  transition: 0.3s;
+}
+
+.nav-item {
+  text-align: center;
+  color: #161c2d;
+  font-family: var(--font-roboto);
+  font-weight: var(--font-bold);
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.header-image {
+  margin-top: 21px;
+  margin-left: 100px;
+}
+
+.header-actions {
+  margin-top: 21px;
+  margin-right: 100px;
+  color: #161c2d;
+  font-family: var(--font-roboto);
+  font-weight: var(--font-bold);
+  font-size: 15px;
+  line-height: 26px;
+
+  display: flex;
+  gap: 30px;
 }
 
 .footer {
-    background-color: #161C2D;
-    display: flex;
-    justify-content: space-around;
-    gap: 60px;
-    padding: 122px 245px;
+  background-color: #161c2d;
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+  padding: 122px 245px;
 }
 
 .footer-brand {
-    width: 274px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .footer-logo-img {
-    width: 178px;
+  width: 178px;
 }
 
 .footer-name {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-desc {
-    font-weight: var(--font-normal);
-    font-size: 15px;
-    line-height: 26px;
-    color: var(--white-opacity-color);
+  font-weight: var(--font-normal);
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--white-opacity-color);
 }
 
 .footer-social-icons {
-    width: 142px;
-    display: flex;
-    justify-content: space-between;
+  width: 142px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-item {
-    font-weight: var(--font-normal);
-    font-size: 17px;
-    line-height: 40px;
-    color: var(--white-color);
+  font-weight: var(--font-normal);
+  font-size: 17px;
+  line-height: 40px;
+  color: var(--white-color);
 }

@@ -1,7 +1,14 @@
 :root {
   /* COLORS */
+  --header-bg-color: #f0fbf3;
+  --hover-color: #fb6d45;
+  --text-color: #161c2d;
+  --text-opacity-color: #161c2db3;
+  --marker-color: #19191B;
+
   --white-color: #ffffff;
   --white-opacity-color: #ffffffa6;
+
 
   /* FONTS */
   --font-roboto: "Roboto", sans-serif;

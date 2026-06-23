@@ -1,7 +1,60 @@
 @import url(../global/global.css);
 
+/* HEADER */
 .header {
   background-color: var(--white-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 21px 48px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* .navigation-list :hover {
+  color: var(--hover-color);
+  transition: 0.3s;
+} */
+
+.navigation-link {
+  text-align: center;
+  color: var(--text-color);
+  font-weight: var(--font-bold);
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.navigation-link.active {
+  color: var(--hover-color);
+}
+
+.header-buttons {
+  font-weight: var(--font-bold);
+  font-size: 15px;
+  line-height: 26px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-buttons .btn {
+  color: var(--text-color);
+}
+
+.header-buttons .btn:hover {
+  color: var(--hover-color);
+  transition: 0.3s;
 }
 
 .support-page {
@@ -51,8 +104,8 @@
 }
 
 .content-list {
-  list-style-type: disc; 
-  padding-left: 20px;    
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 .list-item {
@@ -62,5 +115,5 @@
 }
 
 .content-list .list-item::marker {
-  color: var(--marker-color); 
+  color: var(--marker-color);
 }

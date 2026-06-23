@@ -2,7 +2,6 @@
 
 /* HEADER */
 .header {
-.action {
   background-color: var(--white-color);
 }
 
@@ -20,11 +19,6 @@
   align-items: center;
   gap: 20px;
 }
-
-/* .navigation-list :hover {
-  color: var(--hover-color);
-  transition: 0.3s;
-} */
 
 .navigation-link {
   text-align: center;

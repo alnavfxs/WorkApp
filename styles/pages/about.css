@@ -92,37 +92,41 @@
   gap: 30px;
 }
 
+.navigation-link:active {
+  color: var(--hover-color);
+}
+
 .team-list {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
-    width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  width: 75%;
 }
 
 .team-card {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    /* gap: 20px; */
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  /* gap: 20px; */
 }
 
 .team-img {
-    width: 267px;
-    height: 356px;
-    margin-bottom: 30px;
+  width: 267px;
+  height: 356px;
+  margin-bottom: 30px;
 }
 
 .team-name {
-    color: var(--text-color);
-    font-weight: var(--font-bold);
-    font-size: 21px;
-    line-height: 32px;
+  color: var(--text-color);
+  font-weight: var(--font-bold);
+  font-size: 21px;
+  line-height: 32px;
 }
 
 .team-role {
-    color: var(--text-opacity-color);
-    font-weight: var(--font-normal);
-    font-size: 17px;
-    line-height: 29px;
+  color: var(--text-opacity-color);
+  font-weight: var(--font-normal);
+  font-size: 17px;
+  line-height: 29px;
 }

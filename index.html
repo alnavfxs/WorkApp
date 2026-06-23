@@ -13,10 +13,24 @@
   <body>
     <!-- HEADER -->
     <header class="header">
-      <section class="header-section">
-        <div class="header-image">
+      <section class="header-container">
+        <div class="header-logo">
           <img src="./assets/icons/header-brand.svg" alt="Brainwaive Image" />
         </div>
+
+        <nav class="header-navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link active" href="./index.html">Home</a>
+            </li>
+
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">About Us</a>
+            </li>
+
+            <li class="navigation-item">
+              <a class="navigation-link" href="./pages/support.html">Support</a>
+            </li>
         <nav class="header-nav">
           <ul class="header-list">
             <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
@@ -24,31 +38,270 @@
             <li class="nav-item"><a class="nav-link" href="./pages/support.html">Support</a></li>
           </ul>
         </nav>
-        <div class="header-actions">
+
+        <div class="header-buttons">
           <a href="#" class="btn">Login</a>
           <a href="#" class="btn">Sign up</a>
         </div>
       </section>
+    </header>
 
-      <!-- HERO -->
-      <section class="hero-section">
-        <div class="hero-container">
-          <div class="hero-content">
-            <h1 class="hero-title">Find a dream job that changes life.</h1>
-            <p class="hero-description">
-              With lots of unique blocks, you can easily build a page without
-              coding. Build your next job website.
-            </p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">Find a dream job that changes life.</h1>
+
+          <p class="hero-description">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next job website.
+          </p>
+        </div>
+
+        <div class="hero-media">
+          <img src="./assets/image/hero.png" alt="Hero Image" />
+        </div>
+      </div>
+
+      <img
+        src="./assets/image/wave1.svg"
+        alt="Wave Background"
+        class="hero-wave"
+      />
+    </section>
+
+    <!-- MAIN -->
+
+    <!-- HOME COMPANIES -->
+    <main class="main">
+      <section class="companies">
+        <div class="companies-content">
+          <h2 class="companies-title">Big companies are here</h2>
+
+          <p class="companies-description">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next consultancy website within few minutes. You
+            have a business to run. Stop worring about cross-browser bugs,
+            designing new pages.
+          </p>
+        </div>
+
+        <div class="companies-image">
+          <img src="./assets/icons/homesection1icon1.svg" alt="Home Section1" />
+        </div>
+      </section>
+
+      <!-- HOME JOBS -->
+      <section class="categories">
+        <div class="categories-content">
+          <h2 class="categories-title">Jobs by category</h2>
+
+          <p class="categories-description">
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+        </div>
+
+        <div class="categories-cards">
+          <div class="category-card">
+            <h3 class="category-title">Design</h3>
+            <span class="category-count">47 Jobs</span>
           </div>
-          <div class="hero-image">
-            <img src="./assets/image/hero.png" alt="Hero Image" />
+
+          <div class="category-card">
+            <h3 class="category-title">Marketing</h3>
+            <span class="category-count">51 Jobs</span>
+          </div>
+
+          <div class="category-card">
+            <h3 class="category-title">Engineering</h3>
+            <span class="category-count">89 Jobs</span>
+          </div>
+
+          <div class="category-card">
+            <h3 class="category-title">Mangement</h3>
+            <span class="category-count">16 Jobs</span>
+          </div>
+
+          <div class="category-card">
+            <h3 class="category-title">Finance</h3>
+            <span class="category-count">23 Jobs</span>
+          </div>
+
+          <div class="category-card">
+            <h3 class="category-title">Customer Support</h3>
+            <span class="category-count">34 Jobs</span>
           </div>
         </div>
       </section>
-    </header>
 
-    <!-- MAIN -->
-    <main class="main"></main>
+      <!-- FIND JOBS STEP -->
+
+      <section class="process-section">
+        <div class="process-content">
+          <h2 class="process-title">Find jobs with 3 easy steps</h2>
+          <p class="process-description">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+        </div>
+
+        <div class="process-container">
+          <div class="process-image">
+            <img
+              src="./assets/image/homesection3.svg"
+              alt="Home section3 image"
+            />
+          </div>
+
+          <div class="process-list">
+            <div class="process-item">
+              <img
+                class="process-icon"
+                src="./assets/icons/homesection3icon1.svg"
+                alt="Icon 1"
+              />
+              <div class="process-item-content">
+                <h3 class="process-item-title">Search for a job</h3>
+                <p class="process-item-description">
+                  With lots of unique blocks, you can easily build a page
+                  without coding.
+                </p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <img
+                class="process-icon"
+                src="./assets/icons/homesection3icon2.svg"
+                alt="Icon 2"
+              />
+              <div class="process-item-content">
+                <h3 class="process-item-title">Apply within our website</h3>
+                <p class="process-item-description">
+                  With lots of unique blocks, you can easily build a page
+                  without coding.
+                </p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <img
+                class="process-icon"
+                src="./assets/icons/homesection3icon3.svg"
+                alt="Icon 3"
+              />
+              <div class="process-item-content">
+                <h3 class="process-item-title">Get interview call</h3>
+                <p class="process-item-description">
+                  With lots of unique blocks, you can easily build a page
+                  without coding.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED -->
+
+      <section class="featured-section">
+        <div class="featured-contents">
+          <h2 class="featured-title">Featured jobs</h2>
+          <p class="featured-description">
+            With lots of unique blocks, you can easily build a page without
+            coding.
+          </p>
+        </div>
+        <div class="featured-icon">
+          <img src="./assets/icons/featuredicon.svg" alt="Icon1" />
+        </div>
+        <div class="featured-images">
+          <img src="./assets/image/featuredimage1.svg" alt="Image1" />
+          <img src="./assets/image/featuredimage2.svg" alt="Image2" />
+          <img src="./assets/image/featuredimage3.svg" alt="Image3" />
+          <img src="./assets/image/featuredimage4.svg" alt="Image4" />
+        </div>
+      </section>
+
+      <!-- HELP -->
+
+      <section class="help">
+        <div class="help-content">
+          <h2 class="help-title">News that helps</h2>
+          <p class="help-description">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+        </div>
+
+        <div class="cards-container">
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/image/helpimage1.svg" alt="Career" />
+            </div>
+            <div class="card-content">
+              <span class="card-category">Career</span>
+              <h3 class="card-title">
+                How to win any job you want. Get started with 5 steps.
+              </h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/image/helpimage2.svg" alt="Lifestyle" />
+            </div>
+            <div class="card-content">
+              <span class="card-category">Lifestyle</span>
+              <h3 class="card-title">
+                10 ways to reduce your office work depression.
+              </h3>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./assets/image/helpimage3.svg" alt="Career" />
+            </div>
+            <div class="card-content">
+              <span class="card-category">Career</span>
+              <h3 class="card-title">
+                Why should you work as a team even on small projects.
+              </h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- UPDATES -->
+      <section class="updates">
+        <div class="updates-icon">
+          <img src="./assets/icons/updatesicon.svg" alt="Icon" />
+        </div>
+        <div class="updates-contents">
+          <h2 class="updates-title">Get our latest updates</h2>
+          <p class="updates-description">
+            With lots of unique blocks, you can easily build a page without
+            coding. Build your next landing page.
+          </p>
+        </div>
+        <div class="subscribe-container">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="subscribe-input"
+          />
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+        <div class="subscribe-content">
+          <p class="subscribe-description">
+            We’ll never share your details with third parties. View our Privacy
+            Policy for more info.
+          </p>
+        </div>
+      </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">

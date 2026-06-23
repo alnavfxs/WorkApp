@@ -2,6 +2,7 @@
 
 /* HEADER */
 .header {
+.action {
   background-color: var(--white-color);
 }
 
@@ -93,7 +94,7 @@
   font-size: 19px;
   line-height: 32px;
   font-weight: var(--font-bold);
-  color: var(--text-colot);
+  color: var(--text-color);
 }
 
 .content-text {

@@ -3,39 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-
-    <link rel="stylesheet" href="../styles/pages/home.css" />
-    <link rel="stylesheet" href="../styles/pages/support.css" />
-    <link rel="stylesheet" href="../styles/pages/about.css" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../styles/pages/sign-in.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="header action">
-      <section class="header-section">
-        <div class="header-image">
-          <img src="../assets/icons/header-brand.svg" alt="Brainwaive Image" />
-        </div>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./support.html">Support</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-actions">
-          <a href="#" class="btn">Login</a>
-          <a href="#" class="btn">Sign up</a>
-        </div>
-      </section>
+    <!-- HEADER  -->
+    <header class="header">
+      <img src="../assets/icons/header-brand.svg" alt="Header Image" />
     </header>
 
+    <!-- HERO -->
+    <main class="main">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Sign up</h1>
+          <p class="hero-description">
+            To get started, you need to sign up here.
+          </p>
+        </div>
+
+        <form class="hero-email">
+          <div class="email">
+            <div class="name-div email-div">
+              <label for="name">First & Last Name</label>
+              <input type="name" id="name" placeholder="i.e. John Doe" />
+            </div>
+            <div class="email_div password-div">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="i.e. john@mail.com" />
+            </div>
+            <div class="password-div">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="********" />
+            </div>
+            <div class="password-div">
+              <label for="password">Confirm Password</label>
+              <input type="password" id="password" placeholder="********" />
+            </div>
+            <button class="email-btn">Create an account</button>
+          </div>
+          <p class="email-description">
+            Already have an account?
+            <a href="./sign-in.html" class="create-account-link"
+              >Sign in now</a
+            >
+          </p>
+        </form>
+      </section>
+    </main>
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-brand">

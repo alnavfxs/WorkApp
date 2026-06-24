@@ -1,0 +1,262 @@
+@import url(../global/global.css);
+
+/* HEADER  */
+
+.header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-color: var(--background-color);
+  height: 910px;
+}
+
+.hero-content {
+  height: 131px;
+  max-width: 338px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-title {
+  color: var(--text-color);
+  font-weight: var(--font-bold);
+  font-size: 60px;
+  line-height: 65px;
+  margin-bottom: 34px;
+  margin-top: 200px;
+}
+
+.hero-description {
+  color: var(--text-opacity-color);
+  font-weight: var(--font-normal);
+  font-size: 19px;
+  line-height: 32px;
+}
+
+/* HERO EMAIL */
+
+.hero-email {
+  /* background-color: var(--white-color); */
+  height: 441px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 186px;
+}
+
+.email-description {
+  margin-top: 39px;
+  text-align: center;
+  width: 100%;
+  max-width: 350px;
+
+  font-weight: var(--font-normal);
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.create-account-link {
+  color: var(--email-button);
+  font-weight: var(--font-normal);
+}
+
+.email {
+  background-color: var(--white-color);
+  height: auto;
+  padding-bottom: 30px;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.08),
+    0 8px 16px -6px rgba(0, 0, 0, 0.05);
+}
+
+.email-div {
+  max-width: 400px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.email-div label {
+  display: block;
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  line-height: 26px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.email-div input {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: var(--white-color);
+
+  border: 1px solid rgb(224, 219, 219);
+  border-radius: 8px;
+
+  outline: none;
+}
+
+.email-div input::placeholder {
+  color: var(--text-opacity-color);
+}
+
+.email-div {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.email-div label {
+  display: block;
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  line-height: 26px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.email-div input {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: var(--white-color);
+
+  border: 1px solid rgb(224, 219, 219);
+  border-radius: 8px;
+
+  outline: none;
+}
+
+.email-div input::placeholder {
+  color: var(--text-opacity-color);
+}
+
+.password-div {
+  max-width: 400px;
+  margin-bottom: 20px;
+  margin: 25px;
+}
+
+.password-div label {
+  display: block;
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  line-height: 26px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.password-div input {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: var(--white-color);
+
+  border: 1px solid rgb(224, 219, 219);
+  border-radius: 8px;
+
+  outline: none;
+}
+
+.password-div input::placeholder {
+  color: var(--text-opacity-color);
+}
+
+.password-div {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.password-div label {
+  display: block;
+  font-size: 15px;
+  font-weight: var(--font-bold);
+  line-height: 26px;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+
+.password-div input {
+  width: 100%;
+  padding: 12px 18px;
+  font-size: 16px;
+  background-color: var(--white-color);
+
+  border: 1px solid rgb(224, 219, 219);
+  border-radius: 8px;
+
+  outline: none;
+}
+
+.password-div input::placeholder {
+  color: var(--text-opacity-color);
+}
+
+.email-btn {
+  width: 300px;
+  height: 59px;
+  margin-left: 25px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--email-button);
+  margin-top: 70px;
+
+  color: var(--white-color);
+  font-weight: var(--font-bold);
+  font-size: 17px;
+  line-height: 32px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--text-color);
+  gap: 60px;
+  padding: 122px;
+}
+
+.footer-brand {
+  width: 274px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer-logo-img {
+  width: 178px;
+}
+
+.footer-name {
+  padding-bottom: 20px;
+}
+
+.footer-desc {
+  font-weight: var(--font-normal);
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--white-opacity-color);
+}
+
+.footer-social-icons {
+  width: 142px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  font-weight: var(--font-normal);
+  font-size: 17px;
+  line-height: 40px;
+  color: var(--white-color);
+}

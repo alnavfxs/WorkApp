@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
-    <link rel="stylesheet" href="../styles/pages/signin.css" />
+    <link rel="stylesheet" href="../styles/pages/sign-in.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -12,39 +12,41 @@
   </head>
   <body>
     <!-- HEADER  -->
-    <div class="header">
+    <header class="header">
       <img src="../assets/icons/header-brand.svg" alt="Header Image" />
-    </div>
+    </header>
 
     <!-- HERO -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">Login</h1>
-        <p class="hero-description">
-          To get started, you need to sign in here.
-        </p>
-      </div>
-
-      <form class="hero-email">
-        <div class="email">
-          <div class="email-div">
-            <label for="email">Email</label>
-            <input type="email" id="email" placeholder="i.e. john@mail.com" />
-          </div>
-          <div class="password-div">
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="********" />
-          </div>
-          <button class="email-btn">Sign In</button>
+    <main class="main">
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Login</h1>
+          <p class="hero-description">
+            To get started, you need to sign in here.
+          </p>
         </div>
-        <p class="email-description">
-          Don’t have an account?
-          <a href="#" class="create-account-link" target="_blank"
-            >Create an account</a
-          >
-        </p>
-      </form>
-    </section>
+
+        <form class="hero-email">
+          <div class="email">
+            <div class="email-div">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="i.e. john@mail.com" />
+            </div>
+            <div class="password-div">
+              <label for="password">Password</label>
+              <input type="password" id="password" placeholder="********" />
+            </div>
+            <button class="email-btn">Sign In</button>
+          </div>
+          <p class="email-description">
+            Don’t have an account?
+            <a href="./sign-up.html" class="create-account-link"
+              >Create an account</a
+            >
+          </p>
+        </form>
+      </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="footer">

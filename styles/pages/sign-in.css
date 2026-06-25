@@ -207,6 +207,7 @@
   margin-left: 25px;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
   background-color: var(--email-button);
   margin-top: 70px;
 

@@ -26,17 +26,27 @@
           </p>
         </div>
 
-        <form class="hero-email">
+        <form class="hero-email" action="../index.html">
           <div class="email">
             <div class="email-div">
               <label for="email">Email</label>
-              <input type="email" id="email" placeholder="i.e. john@mail.com" />
+              <input
+                type="email"
+                id="email"
+                placeholder="i.e. john@mail.com"
+                required
+              />
             </div>
             <div class="password-div">
               <label for="password">Password</label>
-              <input type="password" id="password" placeholder="********" />
+              <input
+                type="password"
+                id="password"
+                placeholder="********"
+                required
+              />
             </div>
-            <button class="email-btn">Sign In</button>
+            <button type="submit" class="email-btn">Sign In</button>
           </div>
           <p class="email-description">
             Don’t have an account?
